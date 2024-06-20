@@ -12,8 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      routes: MyRoutes.myRoutes,
-
+      routes: Routes.myRoutes,
     );
   }
 }
